@@ -1,0 +1,10 @@
+#include <iostream>
+#include <unistd.h>
+
+int main(void){
+	int Number;
+	std::cout<<"L'ID del processo e' "<<getpid()<<std::endl; //getpid serve per visualizzare il codice PID di questo processo
+	std::cout<<"Inserisci un numero: ";
+	std::cin>>Number;
+	return 0;		
+}
